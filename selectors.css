@@ -1,0 +1,45 @@
+header {
+  border-style: solid;
+  border-color: goldenrod;
+}
+
+header ul > li {
+  display: inline-block;
+}
+
+.disabled {
+  color: grey;
+}
+
+a.disabled {
+  color: purple;
+}
+.active {
+  color: yellow;
+}
+
+section .grandparent .parent h4 + div > div {
+  color: red;
+}
+
+.parent h4:nth-child(2) {
+  background-color: red;
+}
+
+.parent h4:nth-child(4) {
+  background-color: blue;
+}
+
+section .grandparent .parent h4 div {
+  color: blue;
+}
+
+.grandparent > h4 {
+  border-radius: 25px;
+  border: 1px solid #73ad21;
+}
+
+.promo {
+  font-weight: bold;
+  color: gold;
+}
